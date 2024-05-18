@@ -1,0 +1,28 @@
+{% extends 'nav.html' %}
+{% block content %}
+<header class="navigation">
+    <h2 class="logo">Logo</h2>
+    <nav class="navigation">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/services">Services</a>
+        <a href="/contact">Contact</a>
+        <a href="/login"><button style="border:10px;border-radius: 3px;color:aliceblue;background-color:transparent;font-size: 25px;font-weight:600;">Login</button></a>
+    </nav>
+</header>
+<div class="div-about">
+<h2>ABOUT</h2>
+<p class="about-content">Welcome to our car parking application! We're here to make your parking experience seamless and stress-free. 
+
+    At [website name], we understand the frustration of searching for parking spaces, circling the block endlessly, and worrying about fines. That's why we've developed a user-friendly solution to help you find parking quickly and conveniently.
+    
+    Our websites provides real-time information on available parking spots nearby, saving you time and hassle. Whether you're in a busy city center or a crowded event, we've got you covered.
+    
+    But we're more than just a parking finder. With features like secure payment options, parking spot reservations, and navigation to your chosen spot, we're committed to simplifying every aspect of your parking experience.
+    
+    Join the thousands of satisfied users who rely on [App Name] to find parking effortlessly. visit the website now and say goodbye to parking headaches!</p>
+</div>
+<div class="about-images">
+    <img src="/static/nav.jpg" class="about-img"/>
+</div>
+{% endblock %}
